@@ -9,7 +9,7 @@ class Routes extends Component {
   render() {
     return (
       <Switch>
-        <Route exact path="/" component={RecursiveArray} />
+        <Route exact path="/Fibonacci" component={RecursiveArray} />
         <Route exact path ="/recurse-vs-memoization" component={SpeedTests} />
       </Switch>
     )

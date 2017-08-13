@@ -18,8 +18,15 @@ class Header extends Component {
           where each subsequent number is the sum of the previous 2
         </h4>
         <div style={navStyle}>
-          <Link to='/' style={linkStyle}>Home</Link>
+          <Link to='/Fibonacci' style={linkStyle}>Home</Link>
           <Link to='/recurse-vs-memoization' style={linkStyle}>Speed Tests!</Link>
+          <a
+            style={linkStyle}
+            href='https://github.com/milesaylward/Fibonacci'
+            target='_blank'
+            rel='noopener noreferrer'>
+            Code on Github
+          </a>
         </div>
       </div>
     )
