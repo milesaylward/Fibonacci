@@ -1,0 +1,22 @@
+.speedTest-bg {
+  background:
+    linear-gradient(
+      rgba(0, 0, 0, 0.75),
+      rgba(0, 0, 0, 0.75)
+    ),
+    url('../../images/Mathematics.jpg') no-repeat center center fixed;
+  background-size: cover;
+
+  min-height: calc(100vh - 141px);
+  overflow: hidden;
+  padding-top: 30px;
+  color: white;
+}
+
+.speedTest-bg p, label {
+  font-size: 18px;
+}
+
+label {
+  padding-right: 5px;
+}

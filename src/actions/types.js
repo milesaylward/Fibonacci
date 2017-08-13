@@ -1,0 +1,2 @@
+export const GET_FIBONACCI_ARRAY = 'GET_FIBONACCI_ARRAY';
+export const FIB_SPEEDS = 'FIB_SPEEDS';
